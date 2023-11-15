@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T10:23:27.218Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="9rGbHHc-MsnjkijALuwJ" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T12:28:39.461Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="TM9VVyRSJkEm7XKlff7v" version="22.1.1" type="github">
   <diagram name="페이지-1" id="8cbrbG8ZkDFbgPNMpY25">
-    <mxGraphModel dx="1973" dy="1064" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="1155" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -937,118 +937,118 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-3" value="회원가입" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="583" y="2030" width="120" height="80" as="geometry" />
+          <mxGeometry x="424" y="2124" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-7" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zqAAeQR0JWcSU9_vh-dO-4" target="zqAAeQR0JWcSU9_vh-dO-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-4" value="로그인" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="855" y="2065" width="157" height="117" as="geometry" />
+          <mxGeometry x="696" y="2159" width="157" height="117" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-58" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zqAAeQR0JWcSU9_vh-dO-6" target="zqAAeQR0JWcSU9_vh-dO-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-6" value="회원 추천 탭" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1133" y="2054" width="227" height="134" as="geometry" />
+          <mxGeometry x="974" y="2148" width="227" height="134" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-12" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zqAAeQR0JWcSU9_vh-dO-11" target="zqAAeQR0JWcSU9_vh-dO-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-11" value="회원 정보를&lt;br&gt;가져와서 이미지를 띄워줌" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1110" y="1913" width="178" height="80" as="geometry" />
+          <mxGeometry x="951" y="2007" width="178" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-19" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zqAAeQR0JWcSU9_vh-dO-18" target="zqAAeQR0JWcSU9_vh-dO-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-18" value="랜덤으로 4명을&lt;br&gt;가지고 와야함" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1106" y="1762" width="178" height="80" as="geometry" />
+          <mxGeometry x="947" y="1856" width="178" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-21" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zqAAeQR0JWcSU9_vh-dO-20" target="zqAAeQR0JWcSU9_vh-dO-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-20" value="추천 알고리즘으로&lt;br&gt;4명을 추려야함&lt;br&gt;(멘토님+준+미소)" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1139" y="1582" width="219" height="80" as="geometry" />
+          <mxGeometry x="980" y="1676" width="219" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-23" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zqAAeQR0JWcSU9_vh-dO-22" target="zqAAeQR0JWcSU9_vh-dO-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-22" value="일단 즉석으로&lt;br&gt;그냥 Random 함수 돌려서 4명 셀렉트" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="743" y="1765" width="269" height="80" as="geometry" />
+          <mxGeometry x="584" y="1859" width="269" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-25" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zqAAeQR0JWcSU9_vh-dO-24" target="zqAAeQR0JWcSU9_vh-dO-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-24" value="좋아요 기능 필요" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="2236" width="178" height="80" as="geometry" />
+          <mxGeometry x="871" y="2330" width="178" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-27" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zqAAeQR0JWcSU9_vh-dO-26" target="zqAAeQR0JWcSU9_vh-dO-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-26" value="db에 담겨야함&lt;br&gt;member.interaction&lt;br&gt;member.log" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="892" y="2378" width="178" height="80" as="geometry" />
+          <mxGeometry x="733" y="2472" width="178" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-29" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zqAAeQR0JWcSU9_vh-dO-28" target="zqAAeQR0JWcSU9_vh-dO-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-28" value="세션에&lt;br&gt;로그인된 username&lt;br&gt;있음" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="653" y="2460" width="178" height="80" as="geometry" />
+          <mxGeometry x="494" y="2554" width="178" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-31" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zqAAeQR0JWcSU9_vh-dO-30" target="zqAAeQR0JWcSU9_vh-dO-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-30" value="좋아요마다&lt;br&gt;상대방의 username&lt;br&gt;정보가 있음" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="883" y="2537" width="178" height="80" as="geometry" />
+          <mxGeometry x="724" y="2631" width="178" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-47" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zqAAeQR0JWcSU9_vh-dO-40" target="zqAAeQR0JWcSU9_vh-dO-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-40" value="싫어요 기능 필요" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1239" y="2236" width="178" height="80" as="geometry" />
+          <mxGeometry x="1080" y="2330" width="178" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-41" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zqAAeQR0JWcSU9_vh-dO-42" target="zqAAeQR0JWcSU9_vh-dO-40" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-42" value="db에 담겨야함&lt;br&gt;member.interaction&lt;br&gt;member.log" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1374" y="2367" width="178" height="80" as="geometry" />
+          <mxGeometry x="1215" y="2461" width="178" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-43" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zqAAeQR0JWcSU9_vh-dO-44" target="zqAAeQR0JWcSU9_vh-dO-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-44" value="세션에&lt;br&gt;로그인된 username&lt;br&gt;있음" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1208" y="2556" width="178" height="80" as="geometry" />
+          <mxGeometry x="1049" y="2650" width="178" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-45" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zqAAeQR0JWcSU9_vh-dO-46" target="zqAAeQR0JWcSU9_vh-dO-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-46" value="좋아요마다&lt;br&gt;상대방의 username&lt;br&gt;정보가 있음" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1505" y="2556" width="178" height="80" as="geometry" />
+          <mxGeometry x="1346" y="2650" width="178" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-54" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zqAAeQR0JWcSU9_vh-dO-52" target="zqAAeQR0JWcSU9_vh-dO-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-52" value="좋아요든 싫어요든&lt;br&gt;누르면 새로운 상대가&lt;br&gt;추천이 되야함" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1457" y="2234" width="224" height="80" as="geometry" />
+          <mxGeometry x="1298" y="2328" width="224" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-56" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zqAAeQR0JWcSU9_vh-dO-55" target="zqAAeQR0JWcSU9_vh-dO-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-55" value="일단 기본적으로 셀렉트를&amp;nbsp;&lt;br&gt;20개정도 함" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="1602" y="2401" width="224" height="80" as="geometry" />
+          <mxGeometry x="1443" y="2495" width="224" height="80" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-57" value="맞좋아요 되면&lt;br&gt;채팅 기능이 구현 되어야함&lt;br&gt;(member.interaction)&lt;br&gt;member.interaction.room_uuid에 가데이터 좀넣어야할듯" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="2053" y="1928" width="259" height="187" as="geometry" />
+          <mxGeometry x="1871" y="2027" width="259" height="187" as="geometry" />
         </mxCell>
         <mxCell id="cPLNVvHZgCFviAhPkgQu-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cPLNVvHZgCFviAhPkgQu-1" target="cPLNVvHZgCFviAhPkgQu-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cPLNVvHZgCFviAhPkgQu-1" value="member.interaction&lt;br&gt;테이블에서 채팅방 정보를 가져옴" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="2172" y="2416" width="273" height="98" as="geometry" />
+          <mxGeometry x="1990" y="2466" width="273" height="98" as="geometry" />
         </mxCell>
         <mxCell id="cPLNVvHZgCFviAhPkgQu-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cPLNVvHZgCFviAhPkgQu-8" target="cPLNVvHZgCFviAhPkgQu-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cPLNVvHZgCFviAhPkgQu-8" value="세션에서 member.info 정보 들어있고&lt;br&gt;username을 조회해서 가져온다." style="ellipse;whiteSpace=wrap;html=1;fontSize=16;container=1;" vertex="1" parent="1">
-          <mxGeometry x="2479" y="2416" width="273" height="98" as="geometry" />
+          <mxGeometry x="2437" y="2466" width="273" height="98" as="geometry" />
         </mxCell>
         <mxCell id="cPLNVvHZgCFviAhPkgQu-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cPLNVvHZgCFviAhPkgQu-14" target="zqAAeQR0JWcSU9_vh-dO-57">
           <mxGeometry relative="1" as="geometry" />
@@ -1057,7 +1057,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cPLNVvHZgCFviAhPkgQu-14" value="member.chatroom&lt;br&gt;채팅방목록 띄우기 기능" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="2358" y="2176" width="273" height="98" as="geometry" />
+          <mxGeometry x="2199" y="2270" width="273" height="98" as="geometry" />
         </mxCell>
         <mxCell id="cPLNVvHZgCFviAhPkgQu-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cPLNVvHZgCFviAhPkgQu-16" target="cPLNVvHZgCFviAhPkgQu-18">
           <mxGeometry relative="1" as="geometry" />
@@ -1066,25 +1066,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cPLNVvHZgCFviAhPkgQu-16" value="채팅방 클릭&lt;br&gt;session.username&lt;br&gt;room_uuid" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="2426" y="2021" width="273" height="98" as="geometry" />
+          <mxGeometry x="2231" y="2091" width="273" height="98" as="geometry" />
         </mxCell>
         <mxCell id="cPLNVvHZgCFviAhPkgQu-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cPLNVvHZgCFviAhPkgQu-18" target="cPLNVvHZgCFviAhPkgQu-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cPLNVvHZgCFviAhPkgQu-18" value="웹소켓 연결 (connect)" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="2420" y="1842" width="273" height="98" as="geometry" />
+          <mxGeometry x="2261" y="1936" width="273" height="98" as="geometry" />
         </mxCell>
         <mxCell id="cPLNVvHZgCFviAhPkgQu-20" value="send 를 누르면&lt;br&gt;session.username&lt;br&gt;room_uuid가 jsp 페이지 내에 저장되어있고 chatting 내용까지 한꺼번에 send 가능" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="2457" y="1638" width="273" height="141" as="geometry" />
+          <mxGeometry x="2298" y="1732" width="273" height="141" as="geometry" />
         </mxCell>
         <mxCell id="cPLNVvHZgCFviAhPkgQu-24" value="채팅방을 클릭하면&lt;br&gt;where room_uuid = &quot;클릭된 room_uuid&quot;&lt;br&gt;를 통해 채팅 정보를 출력&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="2721" y="1851" width="273" height="98" as="geometry" />
+          <mxGeometry x="2562" y="1945" width="273" height="98" as="geometry" />
         </mxCell>
         <mxCell id="cPLNVvHZgCFviAhPkgQu-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="cPLNVvHZgCFviAhPkgQu-26" target="cPLNVvHZgCFviAhPkgQu-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="cPLNVvHZgCFviAhPkgQu-26" value="chatting에서 username = 자기자신 = 오른쪽으로 빼고&lt;br&gt;나머지는 왼쪽으로 뺌" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="2960" y="2008" width="310" height="134" as="geometry" />
+          <mxGeometry x="2774" y="2120" width="310" height="134" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
