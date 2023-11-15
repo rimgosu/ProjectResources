@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-15T06:57:57.595Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="UoohkGMJyy78CsoCxx3_" version="22.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-15T07:59:59.415Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="wpHa_FcjonHrL4jFF6OI" version="22.1.1" type="github">
   <diagram name="페이지-1" id="8cbrbG8ZkDFbgPNMpY25">
-    <mxGraphModel dx="1320" dy="1007" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1905" dy="1047" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -517,8 +517,8 @@
             <mxPoint x="1622.08" y="813.8400000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="pSTpOEd2NYs3IXnyboMv-148" value="member.log" style="shape=table;startSize=80;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;strokeColor=default;fontSize=36;" parent="pSTpOEd2NYs3IXnyboMv-2" vertex="1">
-          <mxGeometry x="129.36" y="832" width="520.6428571428576" height="210.50000000000068" as="geometry" />
+        <mxCell id="pSTpOEd2NYs3IXnyboMv-148" value="member.log (dislike 구현 필요)" style="shape=table;startSize=80;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;strokeColor=default;fontSize=36;" parent="pSTpOEd2NYs3IXnyboMv-2" vertex="1">
+          <mxGeometry x="129.36" y="832" width="520.6428571428576" height="240.50000000000068" as="geometry" />
         </mxCell>
         <mxCell id="pSTpOEd2NYs3IXnyboMv-149" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="pSTpOEd2NYs3IXnyboMv-148" vertex="1">
           <mxGeometry y="80" width="520.6428571428576" height="40" as="geometry" />
@@ -572,8 +572,21 @@
             <mxRectangle width="339" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qpt061vKoPCG_giKbu9v-1" value="member.interaction" style="shape=table;startSize=80;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;strokeColor=default;fontSize=36;" parent="pSTpOEd2NYs3IXnyboMv-2" vertex="1">
-          <mxGeometry x="653" y="530" width="520.6428571428576" height="240.50000000000068" as="geometry" />
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-33" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="pSTpOEd2NYs3IXnyboMv-148">
+          <mxGeometry y="210" width="520.6428571428576" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-34" value="map&amp;lt;timestamp,text&amp;gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="zqAAeQR0JWcSU9_vh-dO-33">
+          <mxGeometry width="182" height="30" as="geometry">
+            <mxRectangle width="182" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-35" value="dislike (상대 username dislike 로그)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="zqAAeQR0JWcSU9_vh-dO-33">
+          <mxGeometry x="182" width="339" height="30" as="geometry">
+            <mxRectangle width="339" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qpt061vKoPCG_giKbu9v-1" value="member.interaction&#xa;(dislike 구현 필요)" style="shape=table;startSize=80;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;strokeColor=default;fontSize=36;" parent="pSTpOEd2NYs3IXnyboMv-2" vertex="1">
+          <mxGeometry x="684" y="476" width="520.6428571428576" height="270.5000000000007" as="geometry" />
         </mxCell>
         <mxCell id="qpt061vKoPCG_giKbu9v-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="qpt061vKoPCG_giKbu9v-1" vertex="1">
           <mxGeometry y="80" width="520.6428571428576" height="40" as="geometry" />
@@ -635,7 +648,20 @@
             <mxRectangle width="182" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qpt061vKoPCG_giKbu9v-19" value="room_uuid&amp;nbsp;(채팅을 받음)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" parent="qpt061vKoPCG_giKbu9v-17" vertex="1">
+        <mxCell id="qpt061vKoPCG_giKbu9v-19" value="room_uuid&amp;nbsp;(채팅방 uuid)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" parent="qpt061vKoPCG_giKbu9v-17" vertex="1">
+          <mxGeometry x="182" width="339" height="30" as="geometry">
+            <mxRectangle width="339" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-36" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="qpt061vKoPCG_giKbu9v-1">
+          <mxGeometry y="240" width="520.6428571428576" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-37" value="map&amp;lt;timestamp,text&amp;gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="zqAAeQR0JWcSU9_vh-dO-36">
+          <mxGeometry width="182" height="30" as="geometry">
+            <mxRectangle width="182" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-38" value="dislike (채팅을 받음)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="zqAAeQR0JWcSU9_vh-dO-36">
           <mxGeometry x="182" width="339" height="30" as="geometry">
             <mxRectangle width="339" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -871,8 +897,8 @@
         <mxCell id="pSTpOEd2NYs3IXnyboMv-74" value="&#xa;CREATE TYPE user_keyspace.information (&#xa;    age int,&#xa;    residence text,&#xa;    interest text,&#xa;    mbti text,&#xa;    sport text,&#xa;    alcohol text,&#xa;    smoking text,&#xa;    job text,&#xa;    school text&#xa;);&#xa;&#xa;&#xa;CREATE TYPE user_keyspace.interaction (&#xa;    targetname text,&#xa;    like int,&#xa;    super_like int,&#xa;    chat int&#xa;);&#xa;&#xa;&#xa;CREATE TABLE user_keyspace.recommend (&#xa;    username text ,&#xa;    score float,&#xa;    targetname text,&#xa;    primary key (username, score)&#xa;) WITH CLUSTERING ORDER BY (score DESC);&#xa;&#xa;&#xa;CREATE TABLE user_keyspace.users (&#xa;    username text,&#xa;    name text,&#xa;    address text,&#xa;    password text,&#xa;    phone text,&#xa;    information_data information,&#xa;    interaction_data list&lt;frozen&lt;interaction&gt;&gt;,&#xa;    PRIMARY KEY (username, name)&#xa;);" style="text;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="-500" y="140" width="270" height="640" as="geometry" />
         </mxCell>
-        <mxCell id="pSTpOEd2NYs3IXnyboMv-667" value="&lt;font face=&quot;Tahoma&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;&lt;b&gt;cqls&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fontStyle=0;startSize=90;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
-          <mxGeometry x="2594" y="-174" width="2001" height="1230" as="geometry" />
+        <mxCell id="pSTpOEd2NYs3IXnyboMv-667" value="&lt;font face=&quot;Tahoma&quot;&gt;&lt;span style=&quot;font-size: 48px;&quot;&gt;&lt;b&gt;cqls&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=1;fontStyle=0;startSize=90;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" parent="1" vertex="1">
+          <mxGeometry x="2594" y="-174" width="2243" height="1230" as="geometry" />
         </mxCell>
         <mxCell id="pSTpOEd2NYs3IXnyboMv-365" value="&lt;b&gt;member&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="pSTpOEd2NYs3IXnyboMv-667" vertex="1">
           <mxGeometry x="60" y="150" width="360" height="140" as="geometry">
@@ -946,6 +972,14 @@
         <mxCell id="pSTpOEd2NYs3IXnyboMv-394" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;CREATE TABLE &quot;member&quot;.&quot;filter&quot;(&lt;/div&gt;&lt;div&gt;&quot;username&quot; text,&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&quot;gender&quot; text,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&quot;maximum_distance&quot; int,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&quot;age_range&quot; list&amp;lt;int&amp;gt;,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;PRIMARY KEY((&quot;username&quot;)))&lt;/span&gt;&lt;/div&gt;&lt;div&gt;WITH CUSTOM_PROPERTIES = {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;capacity_mode&#39;:{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;throughput_mode&#39;:&#39;PAY_PER_REQUEST&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;point_in_time_recovery&#39;:{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;status&#39;:&#39;enabled&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;encryption_specification&#39;:{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;encryption_type&#39;:&#39;AWS_OWNED_KMS_KEY&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="pSTpOEd2NYs3IXnyboMv-393" vertex="1">
           <mxGeometry y="30" width="360" height="270" as="geometry" />
         </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-1" value="&lt;b&gt;member.chatting&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="pSTpOEd2NYs3IXnyboMv-667">
+          <mxGeometry x="1642" y="146" width="360" height="391" as="geometry">
+            <mxRectangle x="500" y="260" width="100" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-2" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;CREATE TABLE &quot;member&quot;.&quot;chatting&quot;(&lt;/div&gt;&lt;div&gt;&quot;chat_uuid&quot; uuid,&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&quot;room_uuid&quot; uuid,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&quot;chatted_at&quot; timestamp,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&quot;chat_chatter&quot; text,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&quot;chat_content&quot; text,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&quot;chat_emoticon&quot; text,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;PRIMARY KEY((&quot;chat_uuid&quot;), &quot;room_uuid&quot;, &quot;chatted_at&quot;))&lt;/span&gt;&lt;/div&gt;&lt;div&gt;WITH CUSTOM_PROPERTIES = {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;capacity_mode&#39;:{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;throughput_mode&#39;:&#39;PAY_PER_REQUEST&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;point_in_time_recovery&#39;:{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;status&#39;:&#39;enabled&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;encryption_specification&#39;:{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;encryption_type&#39;:&#39;AWS_OWNED_KMS_KEY&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;AND CLUSTERING ORDER BY(&quot;room_uuid&quot; DESC, &quot;chatted_at&quot; DESC)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="zqAAeQR0JWcSU9_vh-dO-1">
+          <mxGeometry y="30" width="360" height="361" as="geometry" />
+        </mxCell>
         <mxCell id="eBK0H24memvmd18IeakO-1" value="&lt;b&gt;member.chatroom&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3831" y="-24" width="360" height="351" as="geometry">
             <mxRectangle x="500" y="260" width="100" height="30" as="alternateBounds" />
@@ -961,6 +995,125 @@
         </mxCell>
         <mxCell id="eBK0H24memvmd18IeakO-8" value="&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;CREATE TABLE &quot;member&quot;.&quot;chatting&quot;(&lt;/div&gt;&lt;div&gt;&quot;chat_uuid&quot; uuid,&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&quot;room_uuid&quot; uuid,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&quot;chatted_at&quot; timestamp,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&quot;chat_chatter&quot; text,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&quot;chat_content&quot; text,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&quot;chat_emoticon&quot; text,&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;PRIMARY KEY((&quot;chat_uuid&quot;), &quot;room_uuid&quot;, &quot;chatted_at&quot;))&lt;/span&gt;&lt;/div&gt;&lt;div&gt;WITH CUSTOM_PROPERTIES = {&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;capacity_mode&#39;:{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;throughput_mode&#39;:&#39;PAY_PER_REQUEST&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;point_in_time_recovery&#39;:{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;status&#39;:&#39;enabled&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;},&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;encryption_specification&#39;:{&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&#39;encryption_type&#39;:&#39;AWS_OWNED_KMS_KEY&#39;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;AND CLUSTERING ORDER BY(&quot;room_uuid&quot; DESC, &quot;chatted_at&quot; DESC)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="eBK0H24memvmd18IeakO-7" vertex="1">
           <mxGeometry y="30" width="360" height="361" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-5" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zqAAeQR0JWcSU9_vh-dO-3" target="zqAAeQR0JWcSU9_vh-dO-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-3" value="회원가입" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1672" y="1838" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-7" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zqAAeQR0JWcSU9_vh-dO-4" target="zqAAeQR0JWcSU9_vh-dO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-4" value="로그인" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1944" y="1873" width="157" height="117" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-58" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zqAAeQR0JWcSU9_vh-dO-6" target="zqAAeQR0JWcSU9_vh-dO-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-6" value="회원 추천 탭" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2222" y="1862" width="227" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-12" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zqAAeQR0JWcSU9_vh-dO-11" target="zqAAeQR0JWcSU9_vh-dO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-11" value="회원 정보를&lt;br&gt;가져와서 이미지를 띄워줌" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2199" y="1721" width="178" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-19" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zqAAeQR0JWcSU9_vh-dO-18" target="zqAAeQR0JWcSU9_vh-dO-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-18" value="랜덤으로 4명을&lt;br&gt;가지고 와야함" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2195" y="1570" width="178" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-21" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zqAAeQR0JWcSU9_vh-dO-20" target="zqAAeQR0JWcSU9_vh-dO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-20" value="추천 알고리즘으로&lt;br&gt;4명을 추려야함&lt;br&gt;(멘토님+준+미소)" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2228" y="1390" width="219" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-23" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zqAAeQR0JWcSU9_vh-dO-22" target="zqAAeQR0JWcSU9_vh-dO-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-22" value="일단 즉석으로&lt;br&gt;그냥 Random 함수 돌려서 4명 셀렉트" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1832" y="1573" width="269" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-25" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zqAAeQR0JWcSU9_vh-dO-24" target="zqAAeQR0JWcSU9_vh-dO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-24" value="좋아요 기능 필요" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2119" y="2044" width="178" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-27" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zqAAeQR0JWcSU9_vh-dO-26" target="zqAAeQR0JWcSU9_vh-dO-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-26" value="db에 담겨야함&lt;br&gt;member.interaction&lt;br&gt;member.log" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1981" y="2186" width="178" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-29" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zqAAeQR0JWcSU9_vh-dO-28" target="zqAAeQR0JWcSU9_vh-dO-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-28" value="세션에&lt;br&gt;로그인된 username&lt;br&gt;있음" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1742" y="2268" width="178" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-31" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zqAAeQR0JWcSU9_vh-dO-30" target="zqAAeQR0JWcSU9_vh-dO-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-30" value="좋아요마다&lt;br&gt;상대방의 username&lt;br&gt;정보가 있음" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1972" y="2345" width="178" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-47" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zqAAeQR0JWcSU9_vh-dO-40" target="zqAAeQR0JWcSU9_vh-dO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-40" value="싫어요 기능 필요" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2328" y="2044" width="178" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-41" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zqAAeQR0JWcSU9_vh-dO-42" target="zqAAeQR0JWcSU9_vh-dO-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-42" value="db에 담겨야함&lt;br&gt;member.interaction&lt;br&gt;member.log" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2463" y="2175" width="178" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-43" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zqAAeQR0JWcSU9_vh-dO-44" target="zqAAeQR0JWcSU9_vh-dO-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-44" value="세션에&lt;br&gt;로그인된 username&lt;br&gt;있음" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2297" y="2364" width="178" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-45" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zqAAeQR0JWcSU9_vh-dO-46" target="zqAAeQR0JWcSU9_vh-dO-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-46" value="좋아요마다&lt;br&gt;상대방의 username&lt;br&gt;정보가 있음" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2594" y="2364" width="178" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-54" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zqAAeQR0JWcSU9_vh-dO-52" target="zqAAeQR0JWcSU9_vh-dO-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-52" value="좋아요든 싫어요든&lt;br&gt;누르면 새로운 상대가&lt;br&gt;추천이 되야함" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2546" y="2042" width="224" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-56" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zqAAeQR0JWcSU9_vh-dO-55" target="zqAAeQR0JWcSU9_vh-dO-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-55" value="일단 기본적으로 셀렉트를&amp;nbsp;&lt;br&gt;20개정도 함" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2691" y="2209" width="224" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-57" value="맞좋아요 되면&lt;br&gt;채팅 기능이 구현 되어야함" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2800" y="1721" width="259" height="187" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-61" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zqAAeQR0JWcSU9_vh-dO-62">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2945" y="1907" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-62" value="member.interaction&lt;br&gt;room_uuid가 들어가게됨" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2854" y="1996" width="224" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-64" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="zqAAeQR0JWcSU9_vh-dO-63" target="zqAAeQR0JWcSU9_vh-dO-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-63" value="이게 있을라면&lt;br&gt;채팅방" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="2906" y="2172" width="224" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
