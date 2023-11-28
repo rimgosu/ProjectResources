@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-11-23T08:43:29.695Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="8rxuDx8755c-ij_2WTeo" version="22.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-28T00:47:35.912Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="eYZgPb8s1M6XXWArlX12" version="22.1.4" type="github">
   <diagram name="페이지-1" id="8cbrbG8ZkDFbgPNMpY25">
-    <mxGraphModel dx="3052" dy="1954" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2120" dy="1477" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -734,15 +734,15 @@
             <mxRectangle width="213" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QNBbqJpPIRxmT66j_1Bm-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="F8xHb97te3WOOPPkD6ub-2">
+        <mxCell id="QNBbqJpPIRxmT66j_1Bm-3" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" parent="F8xHb97te3WOOPPkD6ub-2" vertex="1">
           <mxGeometry y="60" width="282" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QNBbqJpPIRxmT66j_1Bm-4" value="text" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="QNBbqJpPIRxmT66j_1Bm-3">
+        <mxCell id="QNBbqJpPIRxmT66j_1Bm-4" value="text" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=16;" parent="QNBbqJpPIRxmT66j_1Bm-3" vertex="1">
           <mxGeometry width="69" height="30" as="geometry">
             <mxRectangle width="69" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QNBbqJpPIRxmT66j_1Bm-5" value="sex (남성/여성)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="QNBbqJpPIRxmT66j_1Bm-3">
+        <mxCell id="QNBbqJpPIRxmT66j_1Bm-5" value="sex (남성/여성)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" parent="QNBbqJpPIRxmT66j_1Bm-3" vertex="1">
           <mxGeometry x="69" width="213" height="30" as="geometry">
             <mxRectangle width="213" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -974,7 +974,7 @@
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-58" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zqAAeQR0JWcSU9_vh-dO-6" target="zqAAeQR0JWcSU9_vh-dO-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zqAAeQR0JWcSU9_vh-dO-6" value="회원 추천 탭" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="zqAAeQR0JWcSU9_vh-dO-6" value="회원 추천 탭" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="974" y="2148" width="227" height="134" as="geometry" />
         </mxCell>
         <mxCell id="zqAAeQR0JWcSU9_vh-dO-12" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="1" source="zqAAeQR0JWcSU9_vh-dO-11" target="zqAAeQR0JWcSU9_vh-dO-6" edge="1">
@@ -1345,29 +1345,32 @@
             <mxRectangle width="171" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IIFHU4IF6ip7unmzI8n3-88" value="매칭페이지" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="IIFHU4IF6ip7unmzI8n3-88" value="매칭페이지" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="2040" y="2003" width="242" height="138" as="geometry" />
         </mxCell>
-        <mxCell id="IIFHU4IF6ip7unmzI8n3-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IIFHU4IF6ip7unmzI8n3-90" target="IIFHU4IF6ip7unmzI8n3-88" edge="1">
+        <mxCell id="IIFHU4IF6ip7unmzI8n3-94" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" source="IIFHU4IF6ip7unmzI8n3-90" target="IIFHU4IF6ip7unmzI8n3-88" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IIFHU4IF6ip7unmzI8n3-90" value="상대 프로필&lt;br&gt;(상대 info가 model에&lt;br&gt;담겨야함)" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="IIFHU4IF6ip7unmzI8n3-90" value="상대 프로필&lt;br&gt;(상대 info가 model에&lt;br&gt;담겨야함)" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="2459" y="1903" width="184" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="IIFHU4IF6ip7unmzI8n3-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IIFHU4IF6ip7unmzI8n3-97" target="IIFHU4IF6ip7unmzI8n3-88" edge="1">
+        <mxCell id="IIFHU4IF6ip7unmzI8n3-98" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" source="IIFHU4IF6ip7unmzI8n3-97" target="IIFHU4IF6ip7unmzI8n3-88" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IIFHU4IF6ip7unmzI8n3-97" value="매칭되었다는 것을&lt;br&gt;화려하게 보여줌" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="IIFHU4IF6ip7unmzI8n3-97" value="매칭되었다는 것을&lt;br&gt;화려하게 보여줌" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="2447" y="2100" width="184" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="IIFHU4IF6ip7unmzI8n3-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IIFHU4IF6ip7unmzI8n3-100" target="IIFHU4IF6ip7unmzI8n3-88" edge="1">
+        <mxCell id="IIFHU4IF6ip7unmzI8n3-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" source="IIFHU4IF6ip7unmzI8n3-100" target="IIFHU4IF6ip7unmzI8n3-88" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IIFHU4IF6ip7unmzI8n3-100" value="채팅할 것인가?&lt;br&gt;물어보는 버튼" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="IIFHU4IF6ip7unmzI8n3-100" value="채팅할 것인가?&lt;br&gt;물어보는 버튼" style="ellipse;whiteSpace=wrap;html=1;fontSize=16;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="2526" y="2003" width="184" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="QNBbqJpPIRxmT66j_1Bm-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="3348" y="2805" width="812" height="693" as="geometry" />
+        <mxCell id="D9PpyYrCoRJbBzQm-igI-2" value="&lt;h2 style=&quot;box-sizing: inherit; line-height: 1.5; margin-bottom: 1rem; color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;맑은 고딕&amp;quot;, 나눔고딕, &amp;quot;Nanum Gothic&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Noto Sans CJK KR&amp;quot;, arial, 돋움, Dotum, Tahoma, Geneva, sans-serif; letter-spacing: -0.072px; text-align: start;&quot; id=&quot;채팅페이지&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;채팅페이지&lt;/font&gt;&lt;/h2&gt;&lt;ul style=&quot;box-sizing: inherit; color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;맑은 고딕&amp;quot;, 나눔고딕, &amp;quot;Nanum Gothic&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Noto Sans CJK KR&amp;quot;, arial, 돋움, Dotum, Tahoma, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.072px; text-align: start;&quot;&gt;&lt;li style=&quot;box-sizing: inherit;&quot;&gt;상대방 사진으로 끼워넣기&lt;/li&gt;&lt;li style=&quot;box-sizing: inherit;&quot;&gt;날짜 바꾸기&lt;/li&gt;&lt;li style=&quot;box-sizing: inherit;&quot;&gt;textarea에서 enter를 누르면 메시지 전송 기능&lt;/li&gt;&lt;li style=&quot;box-sizing: inherit;&quot;&gt;모바일에서 볼 때 채팅방을 클릭하면 채팅창으로 가기&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2917" y="2429" width="353" height="261" as="geometry" />
+        </mxCell>
+        <mxCell id="D9PpyYrCoRJbBzQm-igI-3" value="&lt;h2 style=&quot;box-sizing: inherit; line-height: 1.5; margin-bottom: 1rem; color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;맑은 고딕&amp;quot;, 나눔고딕, &amp;quot;Nanum Gothic&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Noto Sans CJK KR&amp;quot;, arial, 돋움, Dotum, Tahoma, Geneva, sans-serif; letter-spacing: -0.072px; text-align: start;&quot; id=&quot;채팅페이지&quot;&gt;ChatRoomNotification&lt;/h2&gt;&lt;ul style=&quot;box-sizing: inherit; color: rgb(33, 37, 41); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;Apple SD Gothic Neo&amp;quot;, &amp;quot;Malgun Gothic&amp;quot;, &amp;quot;맑은 고딕&amp;quot;, 나눔고딕, &amp;quot;Nanum Gothic&amp;quot;, &amp;quot;Noto Sans KR&amp;quot;, &amp;quot;Noto Sans CJK KR&amp;quot;, arial, 돋움, Dotum, Tahoma, Geneva, sans-serif; font-size: 18px; letter-spacing: -0.072px; text-align: start;&quot;&gt;&lt;li style=&quot;box-sizing: inherit;&quot;&gt;&lt;span style=&quot;letter-spacing: -0.072px; background-color: initial;&quot;&gt;photo_base64&lt;br&gt;&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color); box-sizing: inherit;&quot;&gt;nickname&lt;/li&gt;&lt;li style=&quot;box-sizing: inherit;&quot;&gt;last_chatting&lt;/li&gt;&lt;li style=&quot;box-sizing: inherit;&quot;&gt;relativeTime&lt;/li&gt;&lt;/ul&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="3297" y="2429" width="242" height="178.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
